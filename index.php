@@ -1,7 +1,7 @@
 <?php
 
 // 1. Buat koneksi dengan MySQL
-$con = mysqli_connect("localhost","root","fakultas");
+$con = mysqli_connect("localhost","root","","fakultas");
 
 // 2. Check connection
 if (mysqli_connect_errno()) {
